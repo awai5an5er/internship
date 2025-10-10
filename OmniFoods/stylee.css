@@ -1,0 +1,17 @@
+.parent{
+        position: relative;
+        background-color: cornflowerblue;
+        width: 80vw;
+        height: 80vh;
+        justify-content: center;
+        align-items: center;
+}
+.child1{
+    position: absolute; top: 0; width: 100px; height: 100px;
+    background-color: black;
+
+}
+.child2{
+    position: absolute; bottom: 0;right: 0;
+    height: 100px; width: 100px;background-color: brown;
+}
