@@ -1,0 +1,9 @@
+forOf loop //to access the counter variable i.e index
+for(const [i,mov] of movements.entries()){
+
+}
+forEach loop 
+movements.forEach(function(mov,index,array){
+//names dont matter but order of parameters matter, first one is the current element, 2nd is index and 3rd is the complete //array 
+//you cannot break out of a forEach loop
+})

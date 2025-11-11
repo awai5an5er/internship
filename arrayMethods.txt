@@ -1,0 +1,16 @@
+array methods:
+slice: //slice()
+>used to make a shallow copy of an array
+>does not change the original array
+splice: //splice()
+>it changes the original array
+>the elements that we extract or slice away using splice method are removed from the original array
+>used to delete elements from arrays
+>first parameter (start) second parameter (delete count)
+reverse: //reverse()
+>it mutates the original array
+concat: //firstArray.concat(secondArray)
+>used to join 2 arrays
+join: //join('-')
+>returns a string
+>takes a seperator as a parameter 

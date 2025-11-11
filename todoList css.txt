@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+.header{
+  display: flex;
+  justify-content: center;
+  background-color: cadetblue;
+  color:white;
+  border-radius: 10px;
+  border: 2px black solid;
+}
+.main{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+*{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.int{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  padding-top: 50px;
+  padding-left: 50px;
+  row-gap: 20px
+}
+.out{
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  padding-right: 100px;
+  column-gap: 40px;
+  align-items:first baseline;
+}
+.delBtn{
+  border-radius: 10px;
+  background-color: cadetblue;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 10px;
+}
+h2{
+  color:cadetblue
+}
+.btn{
+  border-radius: 10px;
+  background-color: cadetblue;
+  color: white;
+  font-weight:bold;
+  padding: 5px;
+  cursor: pointer;
+}
+.inp{
+  border-radius: 10px;
+  padding: 10px;
+}
+input::placeholder {
+  font-style: italic;
+}
+.done{
+  border-radius: 10px;
+  background-color: cadetblue;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 10px;
+}

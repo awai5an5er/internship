@@ -1,3 +1,5 @@
+import { CirclePlus } from "lucide-react";
+
 export default function App() {
   return (
     <div className="flex justify-evenly py-15 px-20">
@@ -23,8 +25,9 @@ export default function App() {
       </div>
       <div className="flex flex-col gap-20">
         <details>
-          <summary className="bg-[#FFFAF0] px-5 py-5 border-b-black border-2 rounded-2xl list-none cursor-pointer">
-            What is physical therapy?
+          <summary className="flex  bg-[#FFFAF0] px-5 py-5 border-b-black border-2 rounded-2xl list-none cursor-pointer">
+            <CirclePlus color="#CF6A17" />
+            <p className="px-3">What is physical therapy?</p>
           </summary>
           <p className="flex flex-col flex-wrap bg-[#FBFBFB] px-5 py-5">
             It is a long established fact that a reader will be distracted by
@@ -41,8 +44,11 @@ export default function App() {
           </p>
         </details>
         <details>
-          <summary className="bg-[#FFFAF0] px-5 py-5 border-b-black border-2 rounded-2xl list-none cursor-pointer">
-            What is conditions can physical therapy treat?
+          <summary className="flex bg-[#FFFAF0] px-5 py-5 border-b-black border-2 rounded-2xl list-none cursor-pointer">
+            <CirclePlus color="#CF6A17" />
+            <p className="px-3">
+              What is conditions can physical therapy treat?
+            </p>
           </summary>
           <p className="flex flex-col flex-wrap bg-[#FBFBFB] px-5 py-5">
             It is a long established fact that a reader will be distracted by
@@ -59,8 +65,9 @@ export default function App() {
           </p>
         </details>
         <details>
-          <summary className="bg-[#FFFAF0] px-5 py-5 border-b-black border-2 rounded-2xl list-none cursor-pointer">
-            Is physical therapy painful?
+          <summary className="flex bg-[#FFFAF0] px-5 py-5 border-b-black border-2 rounded-2xl list-none cursor-pointer">
+            <CirclePlus color="#CF6A17" />
+            <p className="px-3">Is physical therapy painful?</p>
           </summary>
           <p className="flex flex-col flex-wrap bg-[#FBFBFB] px-5 py-5">
             It is a long established fact that a reader will be distracted by

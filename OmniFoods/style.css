@@ -59,7 +59,9 @@ body {
 .nav-links {
   display: flex;
   list-style: none;
-  margin-left: 450px;
+  margin-left: 430px;
+  font-size: 18px;
+  transition: all 1000ms;
   
 }
 .nav-links :hover{
@@ -105,7 +107,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 30rem;
+  gap: 50rem;
   padding: 4rem 6%;
 }
 
@@ -326,26 +328,81 @@ body {
   animation: spinningAnimation 5s ease-in-out infinite;
   animation: visibilityAnimate 1s ease-in-out infinite;
 }
-@keyframes spinningAnimation {
-  from{
-    transform: rotate(0deg);
-  }
-  to{
-    transform: rotate(360deg);
-  }
-}
-@keyframes visibilityAnimate {
-  from{
-    opacity: 0.5;
-  }
-  to{
-    opacity: 1;
-  }
-}
-@keyframes logo{
-  from(font-size: 1.4rem)
-  to(font-size: 3rem)
-}}
+
 .next{
   background-color: #ffffff;
+}
+.meals{
+  margin-top: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly
+}
+.meal1{
+  display: flex;
+  flex-direction: column;
+  
+}
+.food{
+  width: 336px;
+  height: 224px;
+}
+.meal2 h1{
+  font-weight: 800;
+  font-size: 30px;
+
+}
+.meal2{
+  margin-right: 30px;
+}
+.s1{
+  background-color: #51CF66;
+  border-radius: 20px;
+  padding: 8px;
+  font-weight: bold;
+  
+}
+.food,i{
+  
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.i{
+  margin-left: 20px;
+  margin-top: 20px;
+  
+}
+.i h2{
+  margin-top: 20px;
+}
+.i ul{
+  list-style: none;
+  margin-left: 20px;
+  margin-top: 25px;
+}
+.i span{
+  margin-left: 20px;
+  
+  
+}
+.i ul li img{
+  margin-top: 10px;
+}
+.meal2 ul{
+  list-style: none;
+  margin-left: 40px;
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 18px;
+
+}
+.meal2 ul span{
+  margin-left: 20px;
+}
+.meals i{
+  background-color: #FDF2E9;
+  width: 100px;
+  height: 500px;
 }
